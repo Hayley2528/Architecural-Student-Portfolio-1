@@ -30,7 +30,7 @@ document.querySelector("#app").innerHTML = `
       <div id="project-row">
       Cadavre Exquis
         <div class="three-model">
-          <img src="./myprojectdrawings/Corpse assignment jan 17 version.png" />
+          <img src="./myprojectdrawings/Corpse assignment real.png" />
         </div>
         <div id="images-description">
           <h4 id="description"> change description here </h4>
