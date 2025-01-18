@@ -1,12 +1,12 @@
 // CUSTOMIZE THIS FILE TO ADD YOUR OWN DATA
 
 const data = {
-    name: "John Doe",
-    bio: "Undergraduate Architectural Student at University of Calgary passionate about building tools to make homes more affordable.",
+    name: "Hayley Miller",
+    bio: "Bachelor of Design in City Innovation Student at the University of Calgary in the School of Architecture Planning and Landscape.",
     contact: {
-        email: "john.doe@gmail.com",
-        phone: "+12345678910",
-        linkedin: "https://www.linkedin.com/",
+        email: "hayley.miller1@ucalgary.ca",
+        phone: "4037038700",
+        linkedin: "",
         github: "https://www.github.com/",
     }
 }
