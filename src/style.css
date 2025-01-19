@@ -105,12 +105,14 @@ img {
 }
 
 #images {
-  /* Center image container */
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto auto;
+  gap: 10px;
   justify-content: center;
   align-items: center;
-  height: 8em;
-  margin-bottom: 2em;
+  margin-bottom: 30px;
+  height: 100px;
 }
 
 #images-row {
