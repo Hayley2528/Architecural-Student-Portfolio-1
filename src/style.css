@@ -57,6 +57,7 @@ a:hover {
 }
 
 #heading {
+  /* Center heading content */
   flex-direction: column;
   position: fixed;
   top: 0;
@@ -75,6 +76,10 @@ h1 {
   /* Heading font size */
   font-size: 2.5em;
 }
+#lol {
+  margin-top: 60px;
+}
+
 
 #projects {
   /* Center project section */
@@ -129,6 +134,7 @@ img {
 }
 
 #description {
+    /* Center description section */
   display: flex;
       align-items: center;
       font-weight: 100;

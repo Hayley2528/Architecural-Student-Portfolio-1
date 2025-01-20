@@ -24,11 +24,11 @@ document.querySelector("#app").innerHTML = `
     <section id="heading">
       <h1>${data.name}</h1>
       <p>${data.bio}</p>
+      <p id="lol">Title</p>
     </section>
 
     <section id="projects">
       <div id="project-row">
-      Cadavre Exquis
         <div class="three-model">
 
         </div>
