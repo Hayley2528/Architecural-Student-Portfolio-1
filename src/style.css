@@ -57,15 +57,18 @@ a:hover {
 }
 
 #heading {
-  /* Center heading content */
-  position: fixed;
-  display: flex;
   flex-direction: column;
-  padding-bottom: 100px;
-  margin: 2em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
   justify-content: center;
   align-items: center;
-  left:275px;
+  background-color: #000;
+  color: #fff;
+  z-index: 10;
+  margin: 20px;
+  padding-bottom: 20px;
 }
 
 h1 {
