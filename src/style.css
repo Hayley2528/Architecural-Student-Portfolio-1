@@ -83,10 +83,10 @@ h1 {
 }
 
 #project-row {
-  /* Row layout for projects */
   display: flex;
   justify-content: center;
   padding-top: 200px;
+  margin-bottom: 100px;
 }
 
 .three-model {
@@ -98,10 +98,11 @@ h1 {
 
 
 img {
-  /* Image dimensions and margin */
   height: 200px;
   width: auto;
-  margin: 0.5em;
+  margin: .5em;
+  justify-self: center;
+  display: flex;
 }
 
 #images {
