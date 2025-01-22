@@ -134,14 +134,15 @@ img {
 }
 
 #description {
-    /* Center description section */
+  /* Center description section */
   display: flex;
-      align-items: center;
-      font-weight: 100;
-      margin-left: 2em;
-      width: 900px;
-      margin-bottom: 40px;
-      justify-content: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: 100;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 40px;
 }
 
 @media screen and (max-width: 768px) {
