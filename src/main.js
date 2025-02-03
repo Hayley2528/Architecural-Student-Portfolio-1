@@ -78,7 +78,7 @@ document.querySelector("#app").innerHTML = `
       <p class="centered-text">This assignment pushed me to expand my understanding of digital modeling in Rhino 8 and Blender 4.2. I learned how to use interoperability between these two programs to transfer my models and use the capabilities of each program to my advantage. I imported my models from Blender to Rhino in various formats and began to understand the nature of each file type. For example, Obj. files are able to transfer colour and layer information, as well as geometry. Additionally, I found that Glb. files simplified my models the most, and were the smallest in file size. Moving my models between different types of geometries within Rhino helped me to better grasp the properties of each. When looking up close at my mesh geometries I was able to visually understand the way that they were assembled, especially when looking at triangle meshes. SubD geometry on the other hand had a much smoother look, but I was able to rationalize its form and use of subdivision. Finally, NURBS geometry is presented somewhere in between, it looks similar to a mesh but it can be smooth like a SubD. While modelling toad in blender I found myself thinking critically about his assembly as a paper model. I switched back and forth between 0 and 5 subdivision levels in my subdivision modifier panel to monitor how my low poly faces were coming together. My goal was to create clean and logical intersection points between the different parts of his body such as his limbs and his mushroom cap. I found this strategy to be successful, and after moving to Rhino I was able to split him up into his different parts for assembly. Having an understanding of interoperability, different types of geometries, as well as design for assembly is critical. I will carry what I have learned in this assignment forward into future assignments, especially in terms of modelling studio work.</p>
 
       <div class="image-container">
-        <a href="./myprojectdrawings/313 project two 4.png" target="_blank"><img class="image-large" src="./myprojectdrawings/313 project two 4.png" alt="PLS CHANGE"></a>
+        <a href="./myprojectdrawings/313 project two 6.png" target="_blank"><img class="image-large" src="./myprojectdrawings/313 project two 4.png" alt="PLS CHANGE"></a>
         <a href="./myprojectdrawings/313 project two 5.png" target="_blank"><img class="image-large" src="./myprojectdrawings/313 project two 5.png" alt="PLS CHANGE"></a>
       </div>
     </section>
@@ -96,5 +96,5 @@ document.querySelector("#app").innerHTML = `
 
 // Create three.js scenes for each
 createThreeScene("#model1", "/3DModels/pavilion.obj");
-createThreeScene("#model2", "/3DModels/toad.obj");
-createThreeScene("#model3", "/3DModels/ring.obj");
+createThreeScene("#model2", "/3DModels/ring.obj");
+createThreeScene("#model3", "/3DModels/toad.obj");
