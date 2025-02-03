@@ -26,9 +26,9 @@ document.querySelector("#app").innerHTML = `
       <p>${data.bio}</p>
     </section>
 
-    <section id="projects">
+    <section id="assignment-2">
+    <h2>Cadavre Exquis</h2>
           <div>
-          <h2>Assignment One</h2>
       <div id="project-row">
         <div class="three-model">
 
@@ -51,7 +51,7 @@ document.querySelector("#app").innerHTML = `
 
     <section id="assignment-2">
       <div>
-        <h2>Assignment Two</h2>
+        <h2>Interop(erability)</h2>
       </div>
 
       <div class="flex-container">
