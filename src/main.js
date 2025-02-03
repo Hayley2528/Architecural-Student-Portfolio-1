@@ -58,19 +58,19 @@ document.querySelector("#app").innerHTML = `
         <div class="box">
           <div id="model1"></div>
           <div>
-            <img class="image" src="/cubeDrawings/cars.jpg" alt="Car Image">
+            <a href="./myprojectdrawings/313 project two 1.png" target="_blank"><img class="image" src="./myprojectdrawings/313 project two 1.png" alt="PLS CHANGE"></a>
           </div>
         </div>
         <div class="box">
           <div id="model2"></div>
           <div>
-            <img class="image" src="/cubeDrawings/cars.jpg" alt="Car Image">
+            <a href="./myprojectdrawings/313 project two 2.png" target="_blank"><img class="image" src="./myprojectdrawings/313 project two 2.png" alt="PLS CHANGE"></a>
           </div>
         </div>
         <div class="box">
           <div id="model3"></div>
           <div>
-            <img class="image" src="/cubeDrawings/cars.jpg" alt="Car Image">
+            <a href="./myprojectdrawings/313 project two 3.png" target="_blank"><img class="image" src="./myprojectdrawings/313 project two 3.png" alt="PLS CHANGE"></a>
           </div>
         </div>
       </div>
@@ -78,8 +78,8 @@ document.querySelector("#app").innerHTML = `
       <p class="centered-text">Centered Reflection</p>
 
       <div class="image-container">
-        <img class="image-large" src="/cubeDrawings/cube3.webp" alt="Image 1">
-        <img class="image-large" src="/cubeDrawings/cube3.webp" alt="Image 2">
+        <a href="./myprojectdrawings/313 project two 4.png" target="_blank"><img class="image-large" src="./myprojectdrawings/313 project two 4.png" alt="PLS CHANGE"></a>
+        <a href="./myprojectdrawings/313 project two 5.png" target="_blank"><img class="image-large" src="./myprojectdrawings/313 project two 5.png" alt="PLS CHANGE"></a>
       </div>
     </section>
       
@@ -95,6 +95,6 @@ document.querySelector("#app").innerHTML = `
 `;
 
 // Create three.js scenes for each
-createThreeScene("#model1", "/3DModels/cube.obj");
-createThreeScene("#model2", "/3DModels/cube.obj");
-createThreeScene("#model3", "/3DModels/cube.obj");
+createThreeScene("#model1", "/3DModels/pavilion.obj");
+createThreeScene("#model2", "/3DModels/toad.obj");
+createThreeScene("#model3", "/3DModels/ring.obj");
