@@ -199,9 +199,9 @@ img {
 }
 
 .image {
-  height: 100%;
-  width: auto;
-  object-fit: cover;
+  height: auto;
+  width: 300px;
+  object-fit: contain;
 }
 
 .centered-text {
