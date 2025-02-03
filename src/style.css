@@ -27,6 +27,22 @@
   padding: 20px;
 }
 
+.three-model {
+  /* Styling for project models */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#model1,
+#model2,
+#model3 {
+  height: 300px;
+  width: 300px;
+  border: 1px solid #ccc;
+  margin-bottom: 30px;
+}
+
 #footer-items {
   /* Footer styling and positioning */
   position: fixed;
@@ -68,14 +84,19 @@ a:hover {
   background-color: #000;
   color: #fff;
   z-index: 10;
-  margin: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
 }
 
 h1 {
   /* Heading font size */
   font-size: 2.5em;
 }
+
+h2 {
+  font-size: 2em;
+}
+
 #lol {
   margin-top: 60px;
 }
@@ -143,6 +164,66 @@ img {
   width: 80%;
   margin: 0 auto;
   margin-bottom: 40px;
+}
+
+#assignment-2 {
+  text-align: center;
+  padding: 20px;
+  margin-top: 250px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.box {
+  height: 900px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.box > div:last-child {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+}
+
+.centered-text {
+  width: 75%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  margin-top: 70px;
+  gap: 100px;
+}
+
+.image-large {
+  height: 500px;
+  width: 500px;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 768px) {
