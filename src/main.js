@@ -97,4 +97,4 @@ document.querySelector("#app").innerHTML = `
 // Create three.js scenes for each
 createThreeScene("#model1", "/3DModels/pavilion.obj");
 createThreeScene("#model2", "/3DModels/ring.obj");
-createThreeScene("#model3", "/3DModels/toad.obj");
+createThreeScene("#model3", "/3DModels/TOAD 2.obj");
